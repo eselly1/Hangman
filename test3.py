@@ -135,7 +135,7 @@ elif guess == word and lives > 0:
   print('You guessed the right word. You win!')
 
 playagain=input('Would you like to play again? Y/N: ').lower
-if playagain == "y" or "yes":
+while playagain == "y" or "yes":
   print(' _                                             ')
   print('| |                                            ')
   print('| |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  ')
